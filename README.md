@@ -7,7 +7,7 @@
 
 ## 🌐 Language / Bahasa
 
-[🇮🇩 Bahasa Indonesia](#bahasa-indonesia) | [🇬🇧 English](#english)
+[🇮🇩 Bahasa Indonesia](README_ID.md) | [🇬🇧 English](README_EN.md)
 
 ---
 
