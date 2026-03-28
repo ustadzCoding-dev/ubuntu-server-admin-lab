@@ -5,13 +5,7 @@
 
 ---
 
-## 🌐 Language / Bahasa
-
-[🇮🇩 Bahasa Indonesia](#bahasa-indonesia) | [🇬🇧 English](#english)
-
----
-
-## 🇮🇩 Bahasa Indonesia
+## Bahasa Indonesia
 
 ### 📖 Tentang Project
 
@@ -63,7 +57,7 @@ Project ini berisi dokumentasi komprehensif dari praktikum Administrasi Sistem y
 
 ---
 
-## 🇬🇧 English
+## English
 
 ### 📖 About This Project
 
