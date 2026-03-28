@@ -7,7 +7,7 @@
 
 ## 🌐 Language / Bahasa
 
-[🇮🇩 Bahasa Indonesia](README_ID.md) | [🇬🇧 English](README_EN.md)
+[🇮🇩 Bahasa Indonesia](#bahasa-indonesia) | [🇬🇧 English](#english)
 
 ---
 
@@ -22,6 +22,7 @@ Project ini berisi dokumentasi komprehensif dari praktikum Administrasi Sistem y
 - Mengimplementasikan konfigurasi jaringan yang robust
 - Mengamankan akses remote dengan SSH
 - Memahami konsep virtualisasi dan headless mode
+- Mengelola user, grup, dan hak akses file
 
 #### 🛠️ Teknologi & Tools
 
@@ -40,7 +41,8 @@ Project ini berisi dokumentasi komprehensif dari praktikum Administrasi Sistem y
 ✅ **Security Focused**: SSH hardening dan firewall configuration  
 ✅ **Production Ready**: Permanent configuration dengan netplan  
 ✅ **Resource Efficient**: Headless mode untuk optimal performance  
-✅ **Well Documented**: 12 bab dengan troubleshooting lengkap  
+✅ **User Management**: User, group, dan file permission management  
+✅ **Well Documented**: 21 bab dengan troubleshooting lengkap (2 sesi praktikum)  
 
 #### 🚀 Quick Start (Indonesia)
 
@@ -55,7 +57,8 @@ Project ini berisi dokumentasi komprehensif dari praktikum Administrasi Sistem y
    ```
 
 3. **Buka Dokumentasi**
-   - Buka `Dokumentasi Praktikum Administrasi Sistem.md`
+   - **Pertemuan 1-2**: `doc/lab-1-2-id.md` (Indonesia) atau `doc/lab-1-2-en.md` (English)
+   - **Pertemuan 3-4**: `doc/lab-3-4-id.md` (Indonesia) atau `doc/lab-3-4-en.md` (English)
    - Gunakan Markdown viewer untuk best experience
 
 ---
@@ -71,6 +74,7 @@ This project contains comprehensive documentation from System Administration pra
 - Implement robust network configuration
 - Secure remote access with SSH
 - Understand virtualization and headless mode concepts
+- Manage users, groups, and file permissions
 
 #### 🛠️ Technologies & Tools
 
@@ -89,7 +93,8 @@ This project contains comprehensive documentation from System Administration pra
 ✅ **Security Focused**: SSH hardening and firewall configuration  
 ✅ **Production Ready**: Permanent configuration with netplan  
 ✅ **Resource Efficient**: Headless mode for optimal performance  
-✅ **Well Documented**: 12 chapters with complete troubleshooting  
+✅ **User Management**: User, group, and file permission management  
+✅ **Well Documented**: 21 chapters with complete troubleshooting (2 lab sessions)  
 
 #### 🚀 Quick Start (English)
 
@@ -104,7 +109,8 @@ This project contains comprehensive documentation from System Administration pra
    ```
 
 3. **Open Documentation**
-   - Open `Dokumentasi Praktikum Administrasi Sistem.md`
+   - **Sessions 1-2**: `doc/lab-1-2-id.md` (Indonesian) or `doc/lab-1-2-en.md` (English)
+   - **Sessions 3-4**: `doc/lab-3-4-id.md` (Indonesian) or `doc/lab-3-4-en.md` (English)
    - Use Markdown viewer for best experience
 
 ---
@@ -125,6 +131,7 @@ This project contains comprehensive documentation from System Administration pra
 - **Network Configuration**: IP addressing, routing, netplan
 - **Security Implementation**: SSH, firewall configuration
 - **Virtualization**: VM setup, headless operation
+- **User Management**: User, group, and permission management
 - **Troubleshooting**: Systematic problem solving
 
 ### 📝 Documentation Skills
@@ -150,12 +157,19 @@ This project is licensed under the [MIT License](LICENSE) - feel free to use for
 
 Feedback and suggestions are welcome! Please create an issue or pull request for improvements.
 
-## 🔗 Additional Resources
+## � Documentation Files
 
-- [🇮🇩 Indonesian Documentation](README_ID.md)
-- [🇬🇧 English Documentation](README_EN.md)
-- [📋 Main Documentation](Dokumentasi%20Praktikum%20Administrasi%20Sistem.md)
-- 🔗 **GitHub Repository**: [https://github.com/ustadzCoding-dev/ubuntu-server-admin-lab](https://github.com/ustadzCoding-dev/ubuntu-server-admin-lab)
+### 🇮🇩 Indonesian Version
+- **[Pertemuan 1-2: Instalasi & Konfigurasi Dasar](doc/lab-1-2-id.md)**
+- **[Pertemuan 3-4: Manajemen User, Grup, dan Hak Akses](doc/lab-3-4-id.md)**
+
+### 🇬🇧 English Version
+- **[Sessions 1-2: Basic Installation & Configuration](doc/lab-1-2-en.md)**
+- **[Sessions 3-4: User, Group, and File Permission Management](doc/lab-3-4-en.md)**
+
+## 🔗 Repository Link
+
+🔗 **GitHub Repository**: [https://github.com/ustadzCoding-dev/ubuntu-server-admin-lab](https://github.com/ustadzCoding-dev/ubuntu-server-admin-lab)
 
 ---
 
