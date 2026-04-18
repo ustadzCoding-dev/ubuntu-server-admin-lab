@@ -17,6 +17,7 @@ Project ini berisi dokumentasi komprehensif dari praktikum Administrasi Sistem y
 - Mengamankan akses remote dengan SSH
 - Memahami konsep virtualisasi dan headless mode
 - Mengelola user, grup, dan hak akses file
+- Mengamankan sistem dengan firewall, SSH hardening, dan monitoring
 
 #### 🛠️ Teknologi & Tools
 
@@ -36,7 +37,7 @@ Project ini berisi dokumentasi komprehensif dari praktikum Administrasi Sistem y
 ✅ **Production Ready**: Permanent configuration dengan netplan  
 ✅ **Resource Efficient**: Headless mode untuk optimal performance  
 ✅ **User Management**: User, group, dan file permission management  
-✅ **Well Documented**: 21 bab dengan troubleshooting lengkap (2 sesi praktikum)  
+✅ **Well Documented**: 29 bab dengan troubleshooting lengkap (3 sesi praktikum)  
 
 #### 🚀 Quick Start (Indonesia)
 
@@ -53,6 +54,7 @@ Project ini berisi dokumentasi komprehensif dari praktikum Administrasi Sistem y
 3. **Buka Dokumentasi**
    - **Pertemuan 1-2**: `doc/lab-1-2-id.md` (Indonesia) atau `doc/lab-1-2-en.md` (English)
    - **Pertemuan 3-4**: `doc/lab-3-4-id.md` (Indonesia) atau `doc/lab-3-4-en.md` (English)
+   - **Pertemuan 5**: `doc/lab-5-id.md` (Indonesia) atau `doc/lab-5-en.md` (English)
    - Gunakan Markdown viewer untuk best experience
 
 ---
@@ -69,6 +71,7 @@ This project contains comprehensive documentation from System Administration pra
 - Secure remote access with SSH
 - Understand virtualization and headless mode concepts
 - Manage users, groups, and file permissions
+- Secure system with firewall, SSH hardening, and monitoring
 
 #### 🛠️ Technologies & Tools
 
@@ -88,7 +91,7 @@ This project contains comprehensive documentation from System Administration pra
 ✅ **Production Ready**: Permanent configuration with netplan  
 ✅ **Resource Efficient**: Headless mode for optimal performance  
 ✅ **User Management**: User, group, and file permission management  
-✅ **Well Documented**: 21 chapters with complete troubleshooting (2 lab sessions)  
+✅ **Well Documented**: 29 chapters with complete troubleshooting (3 lab sessions)  
 
 #### 🚀 Quick Start (English)
 
@@ -105,6 +108,7 @@ This project contains comprehensive documentation from System Administration pra
 3. **Open Documentation**
    - **Sessions 1-2**: `doc/lab-1-2-id.md` (Indonesian) or `doc/lab-1-2-en.md` (English)
    - **Sessions 3-4**: `doc/lab-3-4-id.md` (Indonesian) or `doc/lab-3-4-en.md` (English)
+   - **Session 5**: `doc/lab-5-id.md` (Indonesian) or `doc/lab-5-en.md` (English)
    - Use Markdown viewer for best experience
 
 ---
@@ -123,7 +127,7 @@ This project contains comprehensive documentation from System Administration pra
 ### 💻 Technical Skills
 - **Linux System Administration**: Ubuntu Server management
 - **Network Configuration**: IP addressing, routing, netplan
-- **Security Implementation**: SSH, firewall configuration
+- **Security Implementation**: SSH hardening, UFW firewall, key authentication
 - **Virtualization**: VM setup, headless operation
 - **User Management**: User, group, and permission management
 - **Troubleshooting**: Systematic problem solving
@@ -156,10 +160,12 @@ Feedback and suggestions are welcome! Please create an issue or pull request for
 ### 🇮🇩 Indonesian Version
 - **[Pertemuan 1-2: Instalasi & Konfigurasi Dasar](doc/lab-1-2-id.md)**
 - **[Pertemuan 3-4: Manajemen User, Grup, dan Hak Akses](doc/lab-3-4-id.md)**
+- **[Pertemuan 5: Keamanan Sistem](doc/lab-5-id.md)**
 
 ### 🇬🇧 English Version
 - **[Sessions 1-2: Basic Installation & Configuration](doc/lab-1-2-en.md)**
 - **[Sessions 3-4: User, Group, and File Permission Management](doc/lab-3-4-en.md)**
+- **[Session 5: System Security](doc/lab-5-en.md)**
 
 ## 🔗 Repository Link
 
