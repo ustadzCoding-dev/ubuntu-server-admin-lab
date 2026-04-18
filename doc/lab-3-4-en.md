@@ -113,7 +113,7 @@ sudo adduser andi
 
 ### ✅ **Fill in data:**
 ```
-Password: andi123
+Password: ******
 Full Name []: Andi Setiawan
 Room Number []: (empty)
 Work Phone []: (empty)
@@ -140,8 +140,8 @@ sudo useradd -m -s /bin/bash siti
 
 # Set password for siti
 sudo passwd siti
-# New password: siti123
-# Retype new password: siti123
+# New password: ******
+# Retype new password: ******
 ```
 
 ### 📋 **useradd options explanation:**
@@ -169,7 +169,7 @@ sudo useradd -m -s /bin/bash -g webdev budi
 
 # Set password
 sudo passwd budi
-# Password: budi123
+# Password: ******
 ```
 
 ### 🔍 **Verification:**
@@ -272,7 +272,7 @@ sudo usermod -d /home/andi_new andi
 # Create temporary user for deletion practice
 sudo useradd -m -s /bin/bash tempuser
 sudo passwd tempuser
-# Password: temp123
+# Password: ******
 
 # Check user exists
 cat /etc/passwd | grep tempuser
@@ -298,7 +298,7 @@ ls -la /home/ | grep tempuser
 # Create new user for deletion practice with home
 sudo useradd -m -s /bin/bash tempuser2
 sudo passwd tempuser2
-# Password: temp123
+# Password: ******
 
 # Delete user WITH home directory
 sudo userdel -r tempuser2
@@ -801,12 +801,12 @@ exit
 # Create tempuser
 sudo useradd -m -s /bin/bash tempuser
 sudo passwd tempuser
-# Password: temp123
+# Password: ******
 
 # Create tempuser2
 sudo useradd -m -s /bin/bash tempuser2
 sudo passwd tempuser2
-# Password: temp123
+# Password: ******
 ```
 
 ### 📋 **Step 2: Verify users created**
@@ -901,7 +901,7 @@ cat /etc/group | grep tempgroup2
 # Create user with tempgroup as primary group
 sudo useradd -m -g tempgroup tempuser3
 sudo passwd tempuser3
-# Password: temp123
+# Password: ******
 
 # Try to delete tempgroup
 sudo groupdel tempgroup

@@ -373,8 +373,8 @@ If you get a bad permissions error, create a new key in a separate folder (more 
 
 ```powershell
 # Create dedicated folder
-mkdir C:\Users\TUF GAMING\.ssh-praktik
-cd C:\Users\TUF GAMING\.ssh-praktik
+mkdir C:\Users\&lt;Username&gt;\.ssh-praktik
+cd C:\Users\&lt;Username&gt;\.ssh-praktik
 
 # Generate new key
 ssh-keygen -t ed25519 -f ./id_ed25519_praktik -C "praktik@ubuntu-server"
@@ -394,7 +394,7 @@ type .\id_ed25519_praktik.pub | ssh -p 2222 gix@192.168.56.10 "mkdir -p ~/.ssh &
 From laptop terminal (not from active SSH session):
 
 ```powershell
-ssh -p 2222 -i C:\Users\TUF GAMING\.ssh-praktik\id_ed25519_praktik gix@192.168.56.10
+ssh -p 2222 -i C:\Users\&lt;Username&gt;\.ssh-praktik\id_ed25519_praktik gix@192.168.56.10
 ```
 
 > ✅ If you can login without entering a password → **success!**

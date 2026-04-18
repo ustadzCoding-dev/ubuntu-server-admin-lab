@@ -397,7 +397,7 @@ yes
 
 ### 🔐 **Masukkan password:**
 ```
-gix@192.168.56.10's password: Unisnu2024!
+gix@192.168.56.10's password: ******
 ```
 
 ## 6.3 Setelah Login Berhasil

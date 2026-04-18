@@ -113,7 +113,7 @@ sudo adduser andi
 
 ### ✅ **Isi data:**
 ```
-Password: andi123
+Password: ******
 Full Name []: Andi Setiawan
 Room Number []: (kosong)
 Work Phone []: (kosong)
@@ -140,8 +140,8 @@ sudo useradd -m -s /bin/bash siti
 
 # Set password untuk siti
 sudo passwd siti
-# New password: siti123
-# Retype new password: siti123
+# New password: ******
+# Retype new password: ******
 ```
 
 ### 📋 **Penjelasan opsi useradd:**
@@ -169,7 +169,7 @@ sudo useradd -m -s /bin/bash -g webdev budi
 
 # Set password
 sudo passwd budi
-# Password: budi123
+# Password: ******
 ```
 
 ### 🔍 **Verifikasi:**
@@ -272,7 +272,7 @@ sudo usermod -d /home/andi_new andi
 # Buat user temporary untuk latihan hapus
 sudo useradd -m -s /bin/bash tempuser
 sudo passwd tempuser
-# Password: temp123
+# Password: ******
 
 # Cek user sudah ada
 cat /etc/passwd | grep tempuser
@@ -298,7 +298,7 @@ ls -la /home/ | grep tempuser
 # Buat user baru untuk latihan hapus dengan home
 sudo useradd -m -s /bin/bash tempuser2
 sudo passwd tempuser2
-# Password: temp123
+# Password: ******
 
 # Hapus user BESERTA home directory
 sudo userdel -r tempuser2
@@ -801,12 +801,12 @@ exit
 # Buat user tempuser
 sudo useradd -m -s /bin/bash tempuser
 sudo passwd tempuser
-# Password: temp123
+# Password: ******
 
 # Buat user tempuser2
 sudo useradd -m -s /bin/bash tempuser2
 sudo passwd tempuser2
-# Password: temp123
+# Password: ******
 ```
 
 ### 📋 **Langkah 2: Verifikasi user sudah dibuat**
@@ -901,7 +901,7 @@ cat /etc/group | grep tempgroup2
 # Buat user dengan primary group tempgroup
 sudo useradd -m -g tempgroup tempuser3
 sudo passwd tempuser3
-# Password: temp123
+# Password: ******
 
 # Coba hapus grup tempgroup
 sudo groupdel tempgroup
